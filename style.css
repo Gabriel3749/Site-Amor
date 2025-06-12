@@ -124,7 +124,7 @@ body {
 }
 
 .timer-box {
-    background: #f0f0f0;
+    background:black;
     padding: 20px 10px;
     border-radius: 10px;
     box-shadow: inset 5px 5px 10px #dcdcdc, inset -5px -5px 10px #ffffff;
