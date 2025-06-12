@@ -1,146 +1,105 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <meta name="author" content="Wagner Cesar Vieira">
-    <title>Jogo da velha com Bootstrap</title>
-
-    <!-- Fonte do projeto -> Nosifer  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para a minha Franjinha</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-
-    <!-- Bootstrap Icons -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
-
-    <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/mystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    
-    <header>
-        <nav class="navbar navbar-expand-lg fixed-top bg-cor-que-eu-quero">
-            <section class="container py-2">
-                <a class="navbar-brand" href="">
-                    <img class="img-fluid" width="40em" src="images/noughts.png" alt="Cadê a imagem">
-                    <span>Jogo da velha</span>
-                </a>
+    <div id="hearts-container"></div>
 
-                <button 
-                type="button"
-                class="navbar-toggler"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbar-items"
-                aria-controls="navbar-items"
-                aria-expanded="false"
-                aria-label="Navegação diferente"
-                > 
-                <i class="bi bi-android2"></i>
-                </button>
-                  
-                <section class="collapse navbar-collapse" id="navbar-items">
-                    <ul class="navbar-nav me-auto mb-0 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="">Página 1</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Página 2</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Página 3</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Página 4</a></li>
-                        <li class="nav-item"><a class="nav-link" href="">Página 5</a></li>
-                    </ul>
-                </section> 
-
-
-            </section>
-        </nav>
-    </header>
-    
     <main class="container">
-        <!-- Inicio Row -->
-        <section class="row">
-             
-            <!-- Inicio jogo da velha -->
-            <section class="col-12 col-md-6">
-            <section>
-                <h5 class="title">Jogo da velha</h5>
-            </section>
-               <section class="quadrado">
-                <section class="celulas">1</section>
-                <section class="celulas">2</section>
-                <section class="celulas">3</section>
-                <section class="celulas">4</section>
-                <section class="celulas">5</section>
-                <section class="celulas">6</section>
-                <section class="celulas">7</section>
-                <section class="celulas">8</section>
-                <section class="celulas">9</section>
-               </section>
+        <header>
+            <h1 class="title">Feliz Dia dos Namorados, <br>Minha franjinha!</h1>
+        </header>
+        
+        <section class="content">
+        
+            <div class="slideshow-container">
 
-                <section class="mensagem">Agora é a vez do jogador{i}</section>
-               
-                <section class="reinicia">
-                    <a href="" class="btn btn-danger">Recomeçar</a>
-                </section>
+                <div class="slide">
+                    <img src="img/primeira.jpeg" alt="Nossa primeira foto">
+                    <div class="slide-caption">
+                        <h3>Nossa primeira foto</h3>
+                        <p>Eu me apaixonei por você aqui</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <img src="img/Carro.jpeg" alt="Foto carro">
+                    <div class="slide-caption">
+                        <h3>Nossa foto do carro indo pra ribs</h3>
+                        <p>Você ta linda aqui, como todos os dias</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <img src="img/Fran.jpeg" alt="Um momento feliz nosso">
+                    <div class="slide-caption">
+                        <h3>A primeira foto que a gente postou </h3>
+                        <p>O seu sorriso me cativa</p>
+                    </div>
+                </div>
+            
+                <div class="slide">
+                    <img src="img/Olho.jpeg" alt="Nós sorrindo">
+                    <div class="slide-caption">
+                        <h3>Nosso lugar favorito de ribs</h3>
+                        <p>Seu olhinhos me encanta<p>
+                    </div>
+                </div>
 
-            </section>
+                <div class="slide">
+                    <img src="img/Algodão.jpeg" alt="Algodão">
+                    <div class="slide-caption">
+                        <h3>O melhor doce</h3>
+                        <p>Com a melhor namorada<p>
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/Flor.jpeg" alt="Nós sorrindo">
+                    <div class="slide-caption">
+                        <h3>Seu niver</h3>
+                        <p>O dia que eu achei que seu pai ia me matar<p>
+                    </div>
+                </div>
 
             
-        <!--Final-->
-
-            <!-- Inicio outra coisa -->
-            <section class="col-12 col-md-6">
-                Outra coisa
-            </section>
-            <!--Final outra coisa-->
-
-
+                </div>
+            <p>Os meu melhor dia sempre renova quando eu te vejo!</p>
+            
+            <div id="timer">
+                <h2 class="timer-title">Lovo-te há</h2>
+                <div class="timer-grid">
+                    <div class="timer-box">
+                        <span id="days">0</span>
+                        <p>Dias</p>
+                    </div>
+                    <div class="timer-box">
+                        <span id="hours">0</span>
+                        <p>Horas</p>
+                    </div>
+                    <div class="timer-box">
+                        <span id="minutes">0</span>
+                        <p>Minutos</p>
+                    </div>
+                    <div class="timer-box">
+                        <span id="seconds">0</span>
+                        <p>Segundos</p>
+                    </div>
+                </div>
+            </div>
 
         </section>
-        <!-- Final Row -->
+
+        <footer>
+            <p class="footer-text">Eu te lovo para todo sempre!</p>
+        </footer>
     </main>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-
-    <!-- JS do projeto -->
-    <script src="js/myscript.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
