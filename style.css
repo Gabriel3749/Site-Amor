@@ -102,7 +102,7 @@ body {
 /* Estilo do contador */
 /* Estilo do contador (VERSÃO PREMIUM) */
 #timer {
-    background: linear-gradient(145deg, #000000, #ffc400);
+    background: linear-gradient(145deg, #201e1e, #ffc400);
     padding: 15px;
     border-radius: 15px;
     box-shadow: 2px 2px 2px #ffc400, -10px -7px 15px #ffc400;
