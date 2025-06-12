@@ -73,7 +73,7 @@ body {
 
 /* Estilo do container principal */
 .container {
-    background:dimgray;
+    background:black;
     padding: 40px;
     border-radius: 20px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -113,7 +113,7 @@ body {
     font-size: 1.3rem;
     font-weight: 400; /* Peso de fonte mais leve */
     margin-bottom: 25px;
-    color: #ffffff;
+    color:black;
     letter-spacing: 1px; /* Espaçamento entre letras */
 }
 
